@@ -1,0 +1,53 @@
+body {
+  font-family: Monospace;
+}
+
+a {
+  color: rgb(24, 134, 83)
+}
+a:hover {
+  color: #FF8FFB;
+}
+
+header {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 1px solid rgb(24, 134, 83);
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+.project {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(255, 143, 251);
+}
+
+.project img, #aboutme img {
+  width: 250px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.project h2, #aboutme h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+#project-container, #aboutme {
+  margin: 0 auto; /* centers project div */
+  width: 90%; /* adds space on either side */
+  max-width: 600px; /* keeps div fom getting too wide */
+}
